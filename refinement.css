@@ -1,0 +1,34 @@
+/* V3: V1 identity with Taste's distinct, purpose-led section surfaces. */
+.v3-public{--section-paper:#fcfaf5;--section-sage:#e5eae2;--section-sand:#eae3d9}
+.v3-public>section{scroll-margin-top:30px}
+.v3-public>.v3-services,.v3-public>#individual-services{border-top:1px solid #baa78e;padding-top:40px}
+.v3-public>.v3-stories{background:var(--section-paper);padding:42px;border-top:1px solid #d9ccba}
+.v3-public>.v3-reading,.v3-public>.reading-room{background:var(--section-sage);padding:42px}
+.v3-public>#business-services{background:var(--section-sage);padding:42px}
+.v3-public>#working-together{background:var(--section-paper);padding:36px;border:1px solid #d9ccba}
+.v3-public>#working-together .support-detail{background:var(--section-sand)}
+.v3-public>#quick-guides{border-top:1px solid #baa78e;padding-top:40px}
+.v3-public>#social-stories{background:var(--section-paper);padding:40px}
+.v3-public>.reading-journal{background:var(--section-paper);padding:38px;border-top:3px solid #995b3d}
+.v3-public>.first-meeting{border-top:1px solid #bba88c;padding-top:28px}
+.v3-public>.business-invitation{background:var(--section-paper);padding:32px}
+.v3-public .content-jumps a{min-height:44px;display:inline-flex;align-items:center}
+.v3-public .service .btn,.v3-public .business-grid .btn{white-space:normal;text-align:left}
+.v3-public .service-grid,.v3-public .business-grid{align-items:stretch}
+.v3-public .service-grid .service,.v3-public .business-grid article{min-width:0}
+.v3-public details summary:focus-visible{outline:3px solid #927044;outline-offset:5px}
+.v3-public .guide-list button{min-height:64px}
+.v3-public .preparation-feature .btn:focus-visible,.trust-section button:focus-visible{outline-color:#ead8b1}
+@media(max-width:900px) and (min-width:701px){
+ .v3-public>.v3-stories,.v3-public>.v3-reading,.v3-public>#business-services,.v3-public>#social-stories,.v3-public>.reading-journal{padding:30px}
+ .v3-public>#working-together{padding:26px}
+}
+@media(max-width:700px){
+ .v3-public>.v3-services,.v3-public>#individual-services,.v3-public>#quick-guides{padding-top:26px}
+ .v3-public>.v3-stories,.v3-public>.v3-reading,.v3-public>.reading-room,.v3-public>#business-services,.v3-public>#social-stories,.v3-public>.business-invitation{padding:26px 20px}
+ .v3-public>#working-together{padding:22px 16px}
+ .v3-public>.reading-journal{padding:26px 20px;margin-top:44px!important}
+ .v3-public>#working-together .support-options button{font-size:12px;padding:12px 6px}
+ html[lang=ta] .v3-public>#working-together .support-options button{font-size:11px}
+}
+@media(prefers-reduced-motion:reduce){.v3-public *, .v3-public *::before, .v3-public *::after{scroll-behavior:auto!important;transition:none!important}}
