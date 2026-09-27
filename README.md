@@ -1,5 +1,9 @@
 # Lawyer App interactive demo
 
-Synthetic demonstration only. Data stays in your browser. OTP, payments, documents and notifications are simulated. Do not enter real client or case information.
+Synthetic browser-local demonstration. No real appointments, payments or SMS.
 
-Client presentations are in presentation/.
+## Presentation
+
+[Read the client presentation](https://ezhilan03.github.io/lawyer-app-demo/presentation/Lawyer-Firm-Presentation.pdf)
+
+The PowerPoint is an editable copy of the same presentation. Older Pitch download URLs serve this same deck for compatibility; there is no separate pitch document.
